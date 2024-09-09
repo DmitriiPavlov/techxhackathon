@@ -1,0 +1,23 @@
+const artwork = window.correctArt;
+const artworkDetailsDiv = document.getElementById("artwork-details");
+const titleElement = document.getElementById("title");
+const authorElement = document.getElementById("author");
+const bornDiedElement = document.getElementById("bornDied");
+const dateElement = document.getElementById("date");
+const techniqueElement = document.getElementById("technique");
+const locationElement = document.getElementById("location");
+const typeElement = document.getElementById("type");
+const schoolElement = document.getElementById("school");
+const timeframeElement = document.getElementById("timeframe");
+const artworkImageElement = document.getElementById("artwork-image");
+
+titleElement.textContent = artwork.title;
+authorElement.textContent = artwork.author;
+bornDiedElement.textContent = artwork.bornDied;
+dateElement.textContent = artwork.date;
+techniqueElement.textContent = artwork.technique;
+locationElement.textContent = artwork.location;
+typeElement.textContent = artwork.type;
+schoolElement.textContent = artwork.school;
+timeframeElement.textContent = artwork.timeframe;
+artworkImageElement.src = artwork.imgUrl;
